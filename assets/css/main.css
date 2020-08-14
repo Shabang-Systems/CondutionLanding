@@ -2886,7 +2886,7 @@ input, select, textarea {
         }
 
         #better-header span {
-            font-size: 5vw;
+            font-size: 3vw !important;
         }
 
         #normi-foot a span {
