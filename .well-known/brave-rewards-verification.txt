@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: condution.com
+Token: c569acbca1424cb81452cbefaa5297b643d0d8fe4d2599a5645c1c32db16e8f5
