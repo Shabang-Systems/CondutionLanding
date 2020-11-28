@@ -13,7 +13,7 @@ function Nav() {
             </div>
             <div id="nav-right">
                 <div id="nav-action">
-                    Get Started
+                    Log in/Sign up
                 </div>
             </div>
         </div>

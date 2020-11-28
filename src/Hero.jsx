@@ -13,6 +13,9 @@ function Hero() {
                     <div id="top-hero-title-desktop">
                         The Condution Project
                     </div>
+                    <div id="top-hero-action-button">
+                        Get Started Now
+                    </div>
                 </div>
             </div>
             <div id="top-hero-image">
