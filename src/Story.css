@@ -1,63 +1,79 @@
-/*@media only screen and (max-width: 512px) {*/
-    /*.image-clearfix {*/
-        /*height: 40vh;*/
-    /*}*/
-/*}*/
 
-/*@media only screen and (min-width: 512px) {*/
-    /*.image-clearfix {*/
-        /*height: 50vw;*/
-    /*}*/
-/*}*/
+.story-callout.brown {
+    color: rgb(185, 114, 96);
+}
 
-/*@media only screen and (min-width: 767px) {*/
-    /*.image-clearfix {*/
-        /*height: 70vw;*/
-    /*}*/
-/*}*/
+.story-callout.blue {
+    color: rgb(121, 148, 204);
+}
 
-/*@media only screen and (min-width: 768px) {*/
-    /*.image-clearfix {*/
-        /*height: 12vw;*/
-    /*}*/
-/*}*/
+.story-callout.green {
+    color: rgb(119, 166, 153);
+}
 
-/*@media only screen and (min-width: 850px) {*/
-    /*.image-clearfix {*/
-        /*height: 13vw;*/
-    /*}*/
-/*}*/
+.story-callout.red {
+    color: rgb(243, 114, 114);
+}
 
-/*@media only screen and (min-width: 968px) {*/
-    /*.image-clearfix {*/
-        /*height: 18vw;*/
-    /*}*/
-/*}*/
+.story-callout.yellow {
+    color: rgb(221, 185, 113);
+}
 
-/*@media only screen and (min-width: 1024px) {*/
-    /*.image-clearfix {*/
-        /*height: 26vw;*/
-    /*}*/
-/*}*/
+
+.story-callout.invbrown {
+    background: rgb(185, 114, 96);
+    color: #fafafa;
+}
+
+.story-callout.invblue {
+    background: rgb(121, 148, 204);
+    color: #fafafa;
+}
+
+.story-callout.invgreen {
+    background: rgb(119, 166, 153);
+    color: #fafafa;
+}
+
+.story-callout.invred {
+    background: rgb(243, 114, 114);
+    color: #fafafa;
+}
+
+.story-callout.invyellow {
+    background: rgb(221, 185, 113);
+    color: #fafafa;
+}
 
 #story {
     position:static;
     background: #f2f2f2;
+    width: 100%;
+    margin: max(3vw, 10px);
 }
 
-
-@media only screen and (max-width: 767px) {
-    .image-clearfix {
-        height: 50vw;
-        background: #f2f2f2;
-    }
+.chapter {
+    margin: 0 auto;
 }
 
-@media only screen and (min-width: 768px) {
-    .image-clearfix {
-        height: 30vw;
-        background: #f2f2f2;
-    }
+.story-callout {
+    margin-left: 5px;
+    padding: 5px 20px;
 }
 
+.story-header {
+    margin: 0;
+    padding: 0;
+
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 5px 20px;
+
+    word-break: break-all;
+
+    display: inline-block;
+
+    font-weight: 600;
+    font-size: 35px;
+}
 

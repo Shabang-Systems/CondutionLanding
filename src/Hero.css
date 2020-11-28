@@ -5,11 +5,12 @@
 
 #top-hero {
     background-image: url(./images/LongBkImg.png);
-    height: 100vh;
-    background-attachment: fixed;
+    /*height: 100vh;*/
     background-repeat: repeat;
     display: flex;
     flex-direction: column;
+    overflow: visible;
+    padding-bottom: 20px;
 }
 
 #top-hero-image {
@@ -30,16 +31,19 @@
 @media only screen and (max-width: 767px) {
     #top-hero {
         background-size: 100vw;
-        background-position: 100% 230px;
+        background-position: 100% 250px;
+        background-attachment: static;
     }
 }
 
 @media only screen and (min-width: 768px) {
     #top-hero {
         background-size: 65vw;
+        background-attachment: fixed;
         background-position: 100% 50px;
     }
 }
+
 
 #top-hero-callout {
     mix-blend-mode: overlay;

@@ -24,10 +24,8 @@ function Nav() {
 function App() {
   return (
     <div className="App">
-        <div>
-            <Nav />
-            <Hero />
-        </div>
+        <Nav />
+        <Hero />
         <Story />
     </div>
   );

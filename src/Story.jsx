@@ -3,9 +3,8 @@ import "./Story.css"
 function Story() {
     return (
         <div id="story">
-            <div className="image-clearfix">&nbsp;</div>
             <div className="chapter">
-                <h1 className="story-callout">Your Favourite Task Manager</h1>
+                <h1 className="story-header story-callout brown">Your <span className="story-callout invbrown">Favourite</span> <span style={{display: "inline-block"}}>Task Manager</span></h1>
             </div>
         </div>
     );
