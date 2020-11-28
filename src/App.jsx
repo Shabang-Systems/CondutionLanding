@@ -15,7 +15,7 @@ function Nav() {
             </div>
             <div id="nav-right">
                 <div id="nav-action">
-                    Log in/Sign up
+                    Log in / Sign up
                 </div>
             </div>
         </div>
