@@ -1,3 +1,4 @@
+import demo from './images/demo.png';
 import './Hero.css';
 
 function Hero() {
@@ -8,12 +9,13 @@ function Hero() {
                     <div id="top-hero-callout">
                         Task Management, Simplified.
                     </div>
-                    <div id="top-hero-title">
+                    <div id="top-hero-title-desktop">
                         The Condution Project
                     </div>
                 </div>
             </div>
             <div id="top-hero-actions">
+                <img src={demo} id="top-hero-demo-image" />
             </div>
         </div>
     );
