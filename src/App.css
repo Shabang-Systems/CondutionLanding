@@ -2,6 +2,10 @@
   display: none;
 }
 
+div {
+    overflow-x: hidden !important;
+}
+
 html {
     height: 100%;
     overflow: hidden;
