@@ -16,6 +16,9 @@ function Story(props) {
                 <animated.img className="story-image story-image-1-1" src={largeDemo} alt={"Large Condution Image"} style={{transform: interpolate(largeCondutionSpring.scale1p1, (c=>`translateX(${c}vw)`))}}/>
                 <div className="story-description">Due and Start Dates <span className="invbrown" style={{paddingLeft: 5, paddingRight: 5}}>Down to the Second</span></div>
             </div>
+            <div className="chapter">
+                <h1 className="story-header story-callout blue right">Powerful <span className="story-callout invblue">Sequential Projects</span></h1>
+            </div>
         </div>
     );
 }
