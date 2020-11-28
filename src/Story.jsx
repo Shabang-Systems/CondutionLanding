@@ -2,9 +2,10 @@ import "./Story.css"
 import {useSpring, animated, interpolate} from 'react-spring'
 import largeDemo from './images/largeDemo.png';
 import seqProj from './images/seqproj.png';
+import psps from './images/perspectives.png';
 
 function Story(props) {
-    const largeCondutionSpring = useSpring({scale1p1: props.scInfo.y.percentage? 20+((1-props.scInfo.y.percentage)*25): 20, opacity1p1: (((props.scInfo.y.percentage > 0.8 && props.scInfo.y.percentage < 1)) ? 1 : 0), scale1p2: props.scInfo.y.percentage? 10+((1-props.scInfo.y.percentage)*35): 20});
+    const largeCondutionSpring = useSpring({scale1p1: props.scInfo.y.percentage? 20+((1-props.scInfo.y.percentage)*25): 20, scale1p2: props.scInfo.y.percentage? 10+((1-props.scInfo.y.percentage)*20): 20, scale1p3: props.scInfo.y.percentage? 15+((1-props.scInfo.y.percentage)*35): 20});
 
     return (
         <div id="story">
@@ -22,6 +23,12 @@ function Story(props) {
                 <animated.img className="story-image story-image-1-2" src={seqProj} alt={"Sequential Projects"} style={{transform: interpolate(largeCondutionSpring.scale1p2, (c=>`translateX(-${c}vw)`))}}/>
                 <div className="story-description">Large Projects? <span className="invblue" style={{paddingLeft: 5, paddingRight: 5}}>Sequentially ordered.</span></div>
             </div>
+            <div className="chapter">
+                <h1 className="story-header story-callout green">Advanced <span className="story-callout invgreen">Custom Filters</span></h1>
+                <animated.img className="story-image story-image-1-3" src={psps} alt={"Custom Perspectives"} style={{transform: interpolate(largeCondutionSpring.scale1p3, (c=>`translateX(${c}vw)`))}}/>
+                <div className="story-description">Contexts and Importance? <span className="invgreen" style={{paddingLeft: 5, paddingRight: 5}}>Powerfully Sorted.</span></div>
+            </div>
+
         </div>
     );
 }
