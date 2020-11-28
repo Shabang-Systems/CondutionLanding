@@ -8927,6 +8927,11 @@ react-dom@^17.0.1:
     object-assign "^4.1.1"
     scheduler "^0.20.1"
 
+react-element-scroll-hook@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/react-element-scroll-hook/-/react-element-scroll-hook-1.1.0.tgz#4a472933f381667007ae249fb5790c39134bcae3"
+  integrity sha512-c9ITNZIb57HT93HbuK+7lVWNOt5ZmmPWguYrf2YbWpLT8AJMHlxXp0926jLxXnFEr0qr4yiyTA8tfkHx+H+scg==
+
 react-error-overlay@^6.0.8:
   version "6.0.8"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.8.tgz#474ed11d04fc6bda3af643447d85e9127ed6b5de"

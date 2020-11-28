@@ -2,6 +2,7 @@ import Hero from './Hero';
 import Story from './Story';
 import './App.css';
 import './Nav.css';
+import useScrollInfo from 'react-element-scroll-hook';
 
 import logo from './images/logo.png';
 
@@ -22,12 +23,13 @@ function Nav() {
 }
 
 function App() {
+  let [scrollInfo, scrollRef] = useScrollInfo();
   return (
-    <div className="App">
-        <Nav />
-        <Hero />
-        <Story />
-    </div>
+      <div className="App" style={{overflowY: "scroll"}} ref={scrollRef}>
+          <Nav />
+          <Hero />
+          <Story scInfo={scrollInfo}/>
+      </div>
   );
 }
 
