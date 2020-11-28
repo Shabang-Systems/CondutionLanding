@@ -1,0 +1,62 @@
+#root {
+    height: 100%;
+}
+
+#top-hero {
+    background-image: url(./images/LongBkImg.png);
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+@media only screen and (max-width: 767px) {
+    #top-hero {
+        background-size: 100vw;
+        background-position: 100% 200px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #top-hero {
+        background-size: 65vw;
+        background-position: 100% 0%;
+    }
+}
+
+#top-hero-callout {
+    mix-blend-mode: overlay;
+    color: white;
+    font-weight: 600;
+    display: inline-block;
+    align-items: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    #top-hero-callout {
+        font-size: 14vw;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #top-hero-callout {
+        font-size: 6vw;
+    }
+}
+
+#top-hero-top-alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 20px;
+}
+
+#top-hero-top-part {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+

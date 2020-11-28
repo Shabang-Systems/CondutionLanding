@@ -1,1 +1,23 @@
+html {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1, h2, h3, p, span, div {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+body {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#root {
+    height: 100%;
+}
+
+.App {
+    height: 100%;
+}
+
 
