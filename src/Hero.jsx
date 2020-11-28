@@ -1,4 +1,5 @@
 import demo from './images/demo.png';
+import phonedemo from './images/phonedemo.jpeg';
 import './Hero.css';
 
 function Hero() {
@@ -14,8 +15,9 @@ function Hero() {
                     </div>
                 </div>
             </div>
-            <div id="top-hero-actions">
-                <img src={demo} id="top-hero-demo-image" />
+            <div id="top-hero-image">
+                <img src={demo} id="top-hero-demo-image" alt={"Condution App"} />
+                <img src={phonedemo} id="top-hero-demo-image-phone" alt={"Condution App"} />
             </div>
         </div>
     );

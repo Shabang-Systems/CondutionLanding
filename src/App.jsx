@@ -12,6 +12,9 @@ function Nav() {
                 <div id="nav-name">Condution</div>
             </div>
             <div id="nav-right">
+                <div id="nav-action">
+                    Get Started
+                </div>
             </div>
         </div>
     )
