@@ -1,48 +1,53 @@
 
-.story-callout.brown {
+.brown {
     color: rgb(185, 114, 96);
 }
 
-.story-callout.blue {
+.blue {
     color: rgb(121, 148, 204);
 }
 
-.story-callout.green {
+.green {
     color: rgb(119, 166, 153);
 }
 
-.story-callout.red {
+.red {
     color: rgb(243, 114, 114);
 }
 
-.story-callout.yellow {
+.yellow {
     color: rgb(221, 185, 113);
 }
 
 
-.story-callout.invbrown {
+.invbrown {
     background: rgb(185, 114, 96);
     color: #fafafa;
+    display: inline-block;
 }
 
-.story-callout.invblue {
+.invblue {
     background: rgb(121, 148, 204);
     color: #fafafa;
+    display: inline-block;
 }
 
-.story-callout.invgreen {
+.invgreen {
     background: rgb(119, 166, 153);
     color: #fafafa;
+    display: inline-block;
 }
 
-.story-callout.invred {
+.invred {
     background: rgb(243, 114, 114);
     color: #fafafa;
+    display: inline-block;
 }
 
-.story-callout.invyellow {
+.invyellow {
     background: rgb(221, 185, 113);
     color: #fafafa;
+    display: inline-block;
 }
 
 #story {
@@ -59,6 +64,7 @@
 .story-callout {
     margin-left: 5px;
     padding: 5px 20px;
+    display: inline-block;
 }
 
 .story-header {
@@ -77,14 +83,59 @@
     font-size: 35px;
 }
 
+.story-image {
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
 .story-image-1-1 {
     display: inline-block;
     width: 110vw;
 }
 
-.test {
+.image-annotation {
     position: absolute;
     top: 0%;
-    transform: translateY(30vh);
+    transform: translateY(50vh);
+    z-index: 10;
+    font-weight: 600;
+    margin-left: 20px;
+    color: #434d5f;
+    background: #eaedad;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .image-annotation {
+        font-size: 20px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .image-annotation {
+        font-size: 30px;
+        padding: 10px;
+    }
+}
+
+.story-description {
+    font-weight: 600;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .story-description {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .story-description {
+        font-size: 40px;
+    }
 }
 

@@ -8,31 +8,13 @@ function Story(props) {
     return (
         <div id="story">
             <div className="chapter">
-                <h1 className="story-header story-callout brown">Your <span className="story-callout invbrown">Favourite</span> <span style={{display: "inline-block"}}>Task Manager</span></h1>
+                <h1 className="story-header story-callout brown">Flexible <span className="story-callout invbrown">Date Handling</span></h1>
                 <br />
-                <animated.div className="test" style={{opacity:largeCondutionSpring.opacity1p1}}>
-                la dinarich
-                <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-               <br />
-                ala dinarich
-                </animated.div>
+                    {/*<animated.div className="image-annotation" style={{opacity:largeCondutionSpring.opacity1p1}}>
+                    Due and Defer dates + times
+                </animated.div>*/}
                 <animated.img className="story-image story-image-1-1" src={largeDemo} alt={"Large Condution Image"} style={{transform: interpolate(largeCondutionSpring.scale1p1, (c=>`translateX(${c}vw)`))}}/>
-                <h1 className="story-header story-callout brown">Your <span className="story-callout invbrown">Second Favourite</span> <span style={{display: "inline-block"}}>Task Manager</span></h1>
+                <div className="story-description">Due and Start Dates <span className="invbrown" style={{paddingLeft: 5, paddingRight: 5}}>Down to the Second</span></div>
             </div>
         </div>
     );
