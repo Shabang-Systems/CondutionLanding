@@ -1,4 +1,5 @@
 import Hero from './Hero';
+import Story from './Story';
 import './App.css';
 import './Nav.css';
 
@@ -23,8 +24,11 @@ function Nav() {
 function App() {
   return (
     <div className="App">
-        <Nav />
-        <Hero />
+        <div>
+            <Nav />
+            <Hero />
+        </div>
+        <Story />
     </div>
   );
 }
