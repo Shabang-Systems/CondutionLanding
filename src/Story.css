@@ -101,7 +101,6 @@ h1 {
 
 .story-image {
     margin-top: 10px;
-    margin-top: 20px;
     display: block;
 }
 
@@ -113,7 +112,7 @@ h1 {
 
 @media only screen and (min-width: 768px) {
     .story-image {
-        width: 70vw;
+        width: 60vw;
     }
 }
 

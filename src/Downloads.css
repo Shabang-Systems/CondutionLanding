@@ -52,13 +52,16 @@
 .downloads-filename {
     color: white;
     font-weight: 600;
-    font-size: 14px;
+    margin-bottom: 5px;
+    font-size: 10px;
+    color: #8795af;
 }
 
 .downloads-hash {
     display: inline-block;
     font-weight: 300;
     transform: translateY(2.5px);
+    font-size: 10px;
 }
 
 .downloads-hashbox {
@@ -77,4 +80,35 @@
         display: block;
     }
 }
+
+
+ul.icons {
+    position: relative;
+    background: rgba(128, 128, 128, 0.05);
+    border-radius: 4em;
+    display: inline-block;
+    padding: 0.35em 0.75em 0.35em 0.75em;
+    font-size: 1.25em;
+    cursor: default;
+    list-style: none;
+    text-align: center;
+}
+
+		ul.icons li {
+            display: inline-block;
+            padding-left: 0;
+		}
+
+        ul a {
+            color: #fafafa; /* blue colors for links too */
+            text-decoration: inherit; /* no underline */
+            padding: 20px;
+            font-size: 27px;
+            transition: color 0.3s;
+        }
+
+        ul a:hover {
+            color: #eaedad;
+        }
+
 
