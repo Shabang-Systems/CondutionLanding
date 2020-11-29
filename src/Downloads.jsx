@@ -2,7 +2,7 @@ import './Downloads.css';
 
 function Downloads(props) {
     return (
-        <div className="downloads">
+        <div className="downloads" id="downloads">
             <div>
                 <h1 className="downloads-callout">Available (Almost) Everywhere.</h1>
                 <span className="downloads-action">Tap on your platform and give it a whirl!</span>
@@ -40,6 +40,9 @@ function Downloads(props) {
                     <li><a href="https://www.youtube.com/channel/UCHoAJexhqGJwIEOD3RELBlw" class="fab fa-youtube"></a></li>
                     <li><a href="https://discord.gg/UaaqueY" class="fab fa-discord"></a></li>
                 </ul>
+            </div>
+            <div style={{textAlign: "center", color: "white", fontSize: 12}}>
+                ©2019-2020 Shabang Systems, LLC. Read up on our <a>Terms of Service</a> and <a>Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
             </div>
         </div>
     )

@@ -102,10 +102,23 @@ ul.icons {
         ul a {
             color: #fafafa; /* blue colors for links too */
             text-decoration: inherit; /* no underline */
-            padding: 20px;
-            font-size: 27px;
             transition: color 0.3s;
         }
+
+        @media only screen and (max-width: 767px) {
+            ul a {
+                padding: 10px;
+                font-size: 24px;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            ul a {
+                padding: 20px;
+                font-size: 27px;
+            }
+        }
+
 
         ul a:hover {
             color: #eaedad;
