@@ -10,16 +10,16 @@ function Downloads(props) {
             <div className="downloads-paddingbox">
                 <span className="downloads-label">On your computer...</span>
                 <br />
-                <div className="downloads-button"><i class="fab fa-apple" /> macOS</div>
-                <div className="downloads-button"><i class="fab fa-windows" /> Windows</div>
-                <div className="downloads-button"><i class="fab fa-linux" /> Linux</div>
-                <div className="downloads-button"><i class="fas fa-globe" /> Web</div>
+                <a className="downloads-button" href="https://drive.google.com/uc?export=download&id=1a7OpQcpqU1uIChAbe_-BfzfsqdKYz1AL"><i class="fab fa-apple" /> macOS</a>
+                <a className="downloads-button" href="https://drive.google.com/uc?export=download&id=1Aq2oCMhWotyZHiZTbLRwqvWMwrvnEogv"><i class="fab fa-windows" /> Windows</a>
+                <a className="downloads-button"><i class="fab fa-linux" onClick={()=>alert("Coming soon... Seriously")}/> Linux</a>
+                <a className="downloads-button" href="https://beta.condution.com"><i class="fas fa-globe" /> Web</a>
             </div>
             <div className="downloads-paddingbox">
                 <span className="downloads-label">or in your phone!</span>
                 <br />
-                <div className="downloads-button"><i class="fab fa-apple" /> iOS</div>
-                <div className="downloads-button"><i class="fab fa-android" /> Android</div>
+                <a className="downloads-button" href="https://testflight.apple.com/join/BPsiQBKV"><i class="fab fa-apple" /> iOS</a>
+                <a className="downloads-button" href="https://play.google.com/store/apps/details?id=cf.shabang.condution"><i class="fab fa-android" /> Android</a>
             </div>
             <div className="downloads-paddingbox hash">
                 <div className="downloads-hashbox">
@@ -42,7 +42,7 @@ function Downloads(props) {
                 </ul>
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
-                ©2019-2020 Shabang Systems, LLC. Read up on our <a>Terms of Service</a> and <a>Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
+                ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html">Terms of Service</a> and <a href="https://www.condution.com/privacy.html">Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
             </div>
         </div>
     )

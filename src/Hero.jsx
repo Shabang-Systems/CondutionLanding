@@ -13,9 +13,9 @@ function Hero() {
                     <div id="top-hero-title-desktop">
                         The Condution Project
                     </div>
-                    <div id="top-hero-action-button">
+                    <a id="top-hero-action-button" href="https://beta.condution.com">
                         Get Started Now
-                    </div>
+                    </a>
                 </div>
             </div>
             <div id="top-hero-image">

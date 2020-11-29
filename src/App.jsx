@@ -17,9 +17,9 @@ function Nav() {
                 <div id="nav-name">Condution</div>
             </div>
             <div id="nav-right">
-                <div id="nav-action">
+                <a id="nav-action" href="https://beta.condution.com/">
                     Log in / Sign up
-                </div>
+                </a>
             </div>
         </div>
     )
