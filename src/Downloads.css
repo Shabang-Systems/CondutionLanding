@@ -82,6 +82,17 @@
 }
 
 
+.tos-link {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+    text-decoration: underline;
+}
+
+.tos-link:hover {
+    color: #eaedad;
+}
+
 ul.icons {
     position: relative;
     background: rgba(128, 128, 128, 0.05);
