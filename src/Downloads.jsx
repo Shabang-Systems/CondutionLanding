@@ -12,7 +12,7 @@ function Downloads(props) {
                 <br />
                 <a className="downloads-button" href="https://drive.google.com/uc?export=download&id=1a7OpQcpqU1uIChAbe_-BfzfsqdKYz1AL"><i class="fab fa-apple" /> macOS</a>
                 <a className="downloads-button" href="https://drive.google.com/uc?export=download&id=1jAfmFoAuHjuaDNTBp-H3WGxLpO2uLhee"><i class="fab fa-windows" /> Windows</a>
-                <a className="downloads-button"><i class="fab fa-linux" onClick={()=>alert("Coming soon... Seriously")}/> Linux</a>
+                <a className="downloads-button" href="https://drive.google.com/uc?export=download&id=15N4ngHeG4s01BnPAhz6JsGlFewGP-g_R"><i class="fab fa-linux" /> Linux</a>
                 <a className="downloads-button" href="https://beta.condution.com"><i class="fas fa-globe" /> Web</a>
             </div>
             <div className="downloads-paddingbox">
@@ -25,7 +25,7 @@ function Downloads(props) {
                 <div className="downloads-hashbox">
                     <div className="downloads-filename">Condution_beta-v1.0.0_darwin <div className="downloads-hash">968d4f95d46f3fa36a1452592f9da2d5221bca4e5884def15081893e55c625f2</div></div>
                     <div className="downloads-filename">Condution_beta-v1.0.0_win64 <div className="downloads-hash">a8f64ff4870654651f58a203396bd77777eb5d1c1aeb313dcf0d96dc5b8e560f</div></div>
-                    <div className="downloads-filename">Condution_beta-v1.0.0_win64 <div className="downloads-hash">30e547b527a2db57d20f81cde94c761c8f622f3d9adbdfb910f44b2baab2c44b</div></div>
+                    <div className="downloads-filename">Condution_beta-v1.0.0_AppImage <div className="downloads-hash">251299b1ef13b8b5e8a5a234e5b101cff0513622c75cbe5b4dd3e38a3906e7a2</div></div>
                 </div>
             </div>
             <div style={{textAlign: "center"}}>
