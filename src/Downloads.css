@@ -1,0 +1,80 @@
+.downloads {
+    background: #434d5f;
+    /*height: 500px;*/
+    padding: 40px;
+}
+
+.downloads-callout {
+    color: white;
+    font-size: 40px;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.downloads-action {
+    color: #eaedad;
+    font-size: 25px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.downloads-paddingbox {
+    padding: 10px;
+    display: inline-block;
+}
+
+.downloads-label {
+    font-weight: 600;
+    color: white;
+    margin-bottom: 6px;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.downloads-button {
+    background: #2a3851;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+    margin: 5px 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.downloads-button:hover {
+    background: #1f2c42;
+}
+
+.downloads-filename {
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.downloads-hash {
+    display: inline-block;
+    font-weight: 300;
+    transform: translateY(2.5px);
+}
+
+.downloads-hashbox {
+    display: inline-block;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .hash {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hash {
+        display: block;
+    }
+}
+

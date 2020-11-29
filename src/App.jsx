@@ -1,10 +1,13 @@
 import Hero from './Hero';
 import Story from './Story';
+import Downloads from './Downloads';
 import './App.css';
 import './Nav.css';
 import useScrollInfo from 'react-element-scroll-hook';
 
 import logo from './images/logo.png';
+
+import './fa/scripts/all.min.css';
 
 function Nav() {
     return (
@@ -29,6 +32,7 @@ function App() {
           <Nav />
           <Hero />
           <Story scInfo={scrollInfo}/>
+          <Downloads />
       </div>
   );
 }
