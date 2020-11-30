@@ -16,7 +16,7 @@ function Downloads(props) {
                 <a className="downloads-button" href="https://beta.condution.com"><i class="fas fa-globe" /> Web</a>
             </div>
             <div className="downloads-paddingbox">
-                <span className="downloads-label">or in your phone!</span>
+                <span className="downloads-label">or on your phone!</span>
                 <br />
                 <a className="downloads-button" href="https://testflight.apple.com/join/BPsiQBKV"><i class="fab fa-apple" /> iOS</a>
                 <a className="downloads-button" href="https://play.google.com/apps/testing/cf.shabang.condution"><i class="fab fa-android" /> Android</a>
