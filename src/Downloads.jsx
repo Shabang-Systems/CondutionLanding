@@ -19,7 +19,7 @@ function Downloads(props) {
                 <span className="downloads-label">or in your phone!</span>
                 <br />
                 <a className="downloads-button" href="https://testflight.apple.com/join/BPsiQBKV"><i class="fab fa-apple" /> iOS</a>
-                <a className="downloads-button" href="https://play.google.com/store/apps/details?id=cf.shabang.condution"><i class="fab fa-android" /> Android</a>
+                <a className="downloads-button" href="https://play.google.com/apps/testing/cf.shabang.condution"><i class="fab fa-android" /> Android</a>
             </div>
             <div className="downloads-paddingbox hash" style={{display: "inline-block"}}>
                 <div className="downloads-hashbox">
