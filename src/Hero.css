@@ -115,13 +115,23 @@
 
 #top-hero-action-button {
     border-radius: 3px;
-    background: #eaedad;
     padding: 8px 12px;
-    color: #434d5f;
     font-weight: 600;
     margin-top: 25px;
     font-size: 16px;
     cursor: pointer;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.primary {
+    background: #eaedad;
+    color: #434d5f;
+}
+
+.secondary {
+    color: #434d5f;
+    background: #c4efff;
 }
 
 
