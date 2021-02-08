@@ -23,8 +23,8 @@ function Downloads(props) {
             </div>
             <div className="downloads-paddingbox hash" style={{display: "inline-block"}}>
                 <div className="downloads-hashbox">
-                    <div className="downloads-filename">Condution_beta-v1.0.0_darwin <div className="downloads-hash">968d4f95d46f3fa36a1452592f9da2d5221bca4e5884def15081893e55c625f2</div></div>
-                    <div className="downloads-filename">Condution_beta-v1.0.0_win64 <div className="downloads-hash">a8f64ff4870654651f58a203396bd77777eb5d1c1aeb313dcf0d96dc5b8e560f</div></div>
+                    <div className="downloads-filename">Condution_beta-v1.0.0_darwin <div className="downloads-hash">6b26b7b4472c3c4d0b9aeb991f4419c15eb1f45ffb38298707c58cab20a9ad92</div></div>
+                    <div className="downloads-filename">Condution_beta-v1.0.0_win64 <div className="downloads-hash">031efef443357fc00cdb83db00b0e3221f3c57c98cd59c184fce33ae69d144aa</div></div>
                     <div className="downloads-filename">Condution_beta-v1.0.0_AppImage <div className="downloads-hash">251299b1ef13b8b5e8a5a234e5b101cff0513622c75cbe5b4dd3e38a3906e7a2</div></div>
                 </div>
             </div>
@@ -37,6 +37,14 @@ function Downloads(props) {
                     <li><a href="https://www.youtube.com/channel/UCHoAJexhqGJwIEOD3RELBlw" class="fab fa-youtube"></a></li>
                     <li><a href="https://discord.gg/UaaqueY" class="fab fa-discord"></a></li>
                 </ul>
+            </div>
+            <div style={{textAlign: "center", color: "white", fontSize: 16}}>
+                Thanks to our <a href="https://www.patreon.com/condution" className="tos-link">Patreons</a> who make this possible: Greirson | cyberic | Reidel Law Firm
+
+            </div>
+            <div style={{textAlign: "center", color: "white", fontSize: 12}}>
+                Interested in joining out team? Get in contact on Discord! We are always looking for more talent.
+                
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
                 ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
