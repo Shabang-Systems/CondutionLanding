@@ -38,11 +38,13 @@ function Downloads(props) {
                     <li><a href="https://discord.gg/UaaqueY" class="fab fa-discord"></a></li>
                 </ul>
             </div>
-            <div style={{textAlign: "center", color: "white", fontSize: 12}}>
-                Thanks to our <a href="https://www.patreon.com/condution">Patreons</a> who make this possible: Greirson | cyberic | Reidel Law Firm
+            <div style={{textAlign: "center", color: "white", fontSize: 16}}>
+                Thanks to our <a href="https://www.patreon.com/condution" className="tos-link">Patreons</a> who make this possible: Greirson | cyberic | Reidel Law Firm
+
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
                 Interested in joining out team? Get in contact on Discord! We are always looking for more talent.
+                
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
                 ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
