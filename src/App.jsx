@@ -1,4 +1,5 @@
 import Hero from './Hero';
+import Privacy from './Privacy';
 import Story from './Story';
 import Downloads from './Downloads';
 import './App.css';
@@ -6,6 +7,8 @@ import './Nav.css';
 import useScrollInfo from 'react-element-scroll-hook';
 
 import logo from './images/logo.png';
+
+import { Route, BrowserRouter as Router } from 'react-router-dom';
 
 import './fa/scripts/all.min.css';
 
@@ -28,12 +31,21 @@ function Nav() {
 function App() {
   let [scrollInfo, scrollRef] = useScrollInfo();
   return (
-      <div className="App" style={{overflowY: "scroll"}} ref={scrollRef}>
-          <Nav />
-          <Hero />
-          <Story scInfo={scrollInfo}/>
-          <Downloads />
-      </div>
+     <Router>
+         <div>
+             <Route exact path='/' component={()=>{
+                 return (
+                     <div className="App" style={{overflowY: "scroll"}} ref={scrollRef}>
+                         <Nav />
+                         <Hero />
+                         <Story scInfo={scrollInfo}/>
+                         <Downloads />
+                     </div>
+                 )
+             }} />
+             <Route exact path='/privacy' component={()=><div ref={scrollRef}><Privacy/></div>}/>
+         </div>
+     </Router>
   );
 }
 
