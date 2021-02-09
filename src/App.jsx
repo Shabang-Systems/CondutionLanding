@@ -20,7 +20,7 @@ function Nav() {
                 <div id="nav-name">Condution</div>
             </div>
             <div id="nav-right">
-                <a id="nav-action" href="https://beta.condution.com/">
+                <a id="nav-action" href="https://app.condution.com/">
                     Log in / Sign up
                 </a>
             </div>
