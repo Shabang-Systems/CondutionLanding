@@ -71,7 +71,7 @@ function Privacy(props) {
                         We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.
                     </div>
                     <br />
-                    <div><b>This policy is effective as of 2020-06-15</b></div>
+                    <div><b>This policy is effective as of 2021-02-08</b></div>
                     <br />
                     <h3>Contact Us</h3>
                     <div>

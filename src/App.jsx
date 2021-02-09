@@ -31,11 +31,12 @@ function Nav() {
 function App() {
   let [scrollInfo, scrollRef] = useScrollInfo();
   return (
+      <div ref={scrollRef} style={{overflowY: "scroll", maxHeight: "100vh"}}>
      <Router>
          <div>
              <Route exact path='/' component={()=>{
                  return (
-                     <div className="App" style={{overflowY: "scroll"}} ref={scrollRef}>
+                     <div className="App" style={{overflowY: "visible"}}>
                          <Nav />
                          <Hero />
                          <Story scInfo={scrollInfo}/>
@@ -46,6 +47,7 @@ function App() {
              <Route exact path='/privacy' component={()=><div ref={scrollRef}><Privacy/></div>}/>
          </div>
      </Router>
+      </div>
   );
 }
 
