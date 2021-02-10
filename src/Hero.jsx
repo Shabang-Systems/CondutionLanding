@@ -17,7 +17,7 @@ function Hero() {
                         <a id="top-hero-action-button" className="primary" href="https://app.condution.com">
                             Get Started Online
                         </a>
-                        <a id="top-hero-action-button" className="secondary" href="https://future.condution.com/#downloads">
+                        <a id="top-hero-action-button" className="secondary" href="https://www.condution.com/#downloads">
                             Download App
                         </a>
                     </div>
