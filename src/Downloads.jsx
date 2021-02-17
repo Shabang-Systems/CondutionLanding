@@ -10,9 +10,9 @@ function Downloads(props) {
             <div className="downloads-paddingbox">
                 <span className="downloads-label">On your computer...</span>
                 <br />
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.1/Condution-1.0.1.dmg"><i class="fab fa-apple" /> macOS</a>
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.1/Condution.Setup.1.0.1.exe.zip"><i class="fab fa-windows" /> Windows</a>
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.1/Condution-1.0.1.AppImage"><i class="fab fa-linux" /> Linux</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.2/Condution-1.0.2.dmg"><i class="fab fa-apple" /> macOS</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.2/Condution.Setup.1.0.2.exe.zip"><i class="fab fa-windows" /> Windows</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.2/Condution-1.0.2.AppImage"><i class="fab fa-linux" /> Linux</a>
                 <a className="downloads-button" href="https://app.condution.com"><i class="fas fa-globe" /> Web</a>
             </div>
             <div className="downloads-paddingbox">
@@ -23,9 +23,9 @@ function Downloads(props) {
             </div>
             <div className="downloads-paddingbox hash" style={{display: "none"}}>
                 <div className="downloads-hashbox">
-                    <div className="downloads-filename">Condution_beta-v1.0.1_darwin <div className="downloads-hash">6b26b7b4472c3c4d0b9aeb991f4419c15eb1f45ffb38298707c58cab20a9ad92</div></div>
-                    <div className="downloads-filename">Condution_beta-v1.0.0_win64 <div className="downloads-hash">031efef443357fc00cdb83db00b0e3221f3c57c98cd59c184fce33ae69d144aa</div></div>
-                    <div className="downloads-filename">Condution_beta-v1.0.0_AppImage <div className="downloads-hash">251299b1ef13b8b5e8a5a234e5b101cff0513622c75cbe5b4dd3e38a3906e7a2</div></div>
+                    <div className="downloads-filename">Condution-v1.0.2_darwin <div className="downloads-hash">a90770eafdbf9230f9ee4618f1857dbd8d1907e98b9f0643027a573779c77ebe</div></div>
+                    <div className="downloads-filename">Condution-v1.0.2_win64 <div className="downloads-hash">2a24aebccedd84342efe6118974d29f6b5657b6a6ec3d75f35ad1778b0e6acdb</div></div>
+                    <div className="downloads-filename">Condution-v1.0.2_AppImage <div className="downloads-hash">f013180d1cb1d2612d527afee31baf7bdba9409f2a58ad46761e98fb096d93bb</div></div>
                 </div>
             </div>
             <div style={{textAlign: "center"}}>
