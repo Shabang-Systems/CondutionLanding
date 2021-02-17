@@ -21,7 +21,7 @@ function Downloads(props) {
                 <a className="downloads-button" href="https://apps.apple.com/us/app/condution/id1523249900"><i class="fab fa-apple" /> iOS</a>
                 <a className="downloads-button" href="https://play.google.com/store/apps/details?id=cf.shabang.condution"><i class="fab fa-android" /> Android</a>
             </div>
-            <div className="downloads-paddingbox hash" style={{display: "none"}}>
+            <div className="downloads-paddingbox hash" style={{display: "inline-block"}}>
                 <div className="downloads-hashbox">
                     <div className="downloads-filename">Condution-v1.0.2_darwin <div className="downloads-hash">a90770eafdbf9230f9ee4618f1857dbd8d1907e98b9f0643027a573779c77ebe</div></div>
                     <div className="downloads-filename">Condution-v1.0.2_win64 <div className="downloads-hash">2a24aebccedd84342efe6118974d29f6b5657b6a6ec3d75f35ad1778b0e6acdb</div></div>
