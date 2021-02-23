@@ -47,7 +47,7 @@ function Downloads(props) {
                 
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
-                ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and 🥗 in the SFBA.
+                ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and <a href="./25627991.jpg">🥗</a> in the SFBA.
             </div>
         </div>
     )
