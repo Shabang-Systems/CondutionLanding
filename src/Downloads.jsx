@@ -25,7 +25,7 @@ function Downloads(props) {
                 <div className="downloads-hashbox">
                     <div className="downloads-filename">Condution-v1.1.1_darwin <div className="downloads-hash">91c48ea1416c3afcfa1767f4ef2dd9895d4fd3c5af38bc4456261a32d7db1bb7</div></div>
                     <div className="downloads-filename">Condution-v1.1.1_win64 <div className="downloads-hash">b3e8209c7ae21da3d6123899f2e37d0d6198ca56eedfd07c2af6ff95a914cafa</div></div>
-                    <div className="downloads-filename">Condution-v1.0.2_AppImage <div className="downloads-hash">b3256006038a2245d09e1c6a1e785479ece9d13cc94989181605663eec7c2106</div></div>
+                    <div className="downloads-filename">Condution-v1.1.1_AppImage <div className="downloads-hash">b3256006038a2245d09e1c6a1e785479ece9d13cc94989181605663eec7c2106</div></div>
                 </div>
             </div>
             <div style={{textAlign: "center"}}>
