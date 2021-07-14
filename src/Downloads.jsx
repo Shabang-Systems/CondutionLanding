@@ -10,9 +10,9 @@ function Downloads(props) {
             <div className="downloads-paddingbox">
                 <span className="downloads-label">On your computer...</span>
                 <br />
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.3/Condution-1.0.3.dmg"><i class="fab fa-apple" /> macOS</a>
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.3/Condution.Setup.1.0.3.exe.zip"><i class="fab fa-windows" /> Windows</a>
-                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.0.3/Condution-1.0.3.AppImage"><i class="fab fa-linux" /> Linux</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.1.1/Condution-1.1.1.dmg"><i class="fab fa-apple" /> macOS</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.1.1/Condution.Setup.1.1.1.exe.zip"><i class="fab fa-windows" /> Windows</a>
+                <a className="downloads-button" href="https://github.com/Shabang-Systems/Condution/releases/download/v1.1.1/Condution-1.1.1.AppImage"><i class="fab fa-linux" /> Linux</a>
                 <a className="downloads-button" href="https://app.condution.com"><i class="fas fa-globe" /> Web</a>
             </div>
             <div className="downloads-paddingbox">
@@ -23,9 +23,9 @@ function Downloads(props) {
             </div>
             <div className="downloads-paddingbox hash" style={{display: "inline-block"}}>
                 <div className="downloads-hashbox">
-                    <div className="downloads-filename">Condution-v1.0.2_darwin <div className="downloads-hash">0892d286f3adedf390b35c926693185a78b4ef8412d71b87121a4717cbc83380</div></div>
-                    <div className="downloads-filename">Condution-v1.0.2_win64 <div className="downloads-hash">d9af22481f2cc4bb0da335f7ac8796a4a1773f02648a964dbdf85a3e222a0d21</div></div>
-                    <div className="downloads-filename">Condution-v1.0.2_AppImage <div className="downloads-hash">3ab0ca526e7ac775b374a4bdad61596db1aafd14ed63b31b9b549e487a29c08a</div></div>
+                    <div className="downloads-filename">Condution-v1.1.1_darwin <div className="downloads-hash">91c48ea1416c3afcfa1767f4ef2dd9895d4fd3c5af38bc4456261a32d7db1bb7</div></div>
+                    <div className="downloads-filename">Condution-v1.1.1_win64 <div className="downloads-hash">b3e8209c7ae21da3d6123899f2e37d0d6198ca56eedfd07c2af6ff95a914cafa</div></div>
+                    <div className="downloads-filename">Condution-v1.0.2_AppImage <div className="downloads-hash">b3256006038a2245d09e1c6a1e785479ece9d13cc94989181605663eec7c2106</div></div>
                 </div>
             </div>
             <div style={{textAlign: "center"}}>
@@ -47,7 +47,7 @@ function Downloads(props) {
                 
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12}}>
-                ©2019-2020 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and <a href="./25627991.jpg">🥗</a> in the SFBA.
+                ©2019-2021 Shabang Systems, LLC. Read up on our <a href="https://www.condution.com/terms.html" className="tos-link">Terms of Service</a> and <a href="https://www.condution.com/privacy.html" className="tos-link">Privacy Policy</a>. Built with ♥️ and <a href="./25627991.jpg">🥗</a> in the SFBA.
             </div>
         </div>
     )
