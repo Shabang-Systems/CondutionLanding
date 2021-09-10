@@ -39,7 +39,7 @@ function Story(props) {
             </div>
 
             <div className="chapter">
-                <h1 className="story-header story-callout blue" style={{textAlign: "center", margin: "0 auto", display: "block"}}>Oh, did we mention... <span className="story-description invblue" style={{paddingLeft: 5, paddingRight: 5}}>Licence: GNU-GPL v3</span><br /><span style={{color: "black"}} className="story-description">Total cost: $0.00. Seriously.</span></h1>
+                <h1 className="story-header story-callout blue" style={{textAlign: "center", margin: "0 auto", display: "block"}}>Oh, did we mention... <span className="story-description invblue" style={{paddingLeft: 5, paddingRight: 5}}>License: GNU-GPL v3</span><br /><span style={{color: "black"}} className="story-description">Total cost: $0.00. Seriously.</span></h1>
             </div>
         </div>
     );
