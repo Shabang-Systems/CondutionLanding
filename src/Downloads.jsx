@@ -39,7 +39,7 @@ function Downloads(props) {
                 </ul>
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 16}}>
-                Thanks to our <a href="https://www.patreon.com/condution" className="tos-link">Patreons</a> who make this possible: Greirson | cyberic | Reidel Law Firm
+                Thanks to our <a href="https://www.patreon.com/condution" className="tos-link">Patreons</a> who make this possible: Greirson | cyberic | Villads 
 
             </div>
             <div style={{textAlign: "center", color: "white", fontSize: 12, marginTop: 10}}>
