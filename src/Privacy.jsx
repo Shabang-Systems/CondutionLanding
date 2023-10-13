@@ -75,7 +75,7 @@ function Privacy(props) {
                     <br />
                     <h3>Contact Us</h3>
                     <div>
-                        If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a href="mailto:support@shabang.cf">support@shabang.cf</a>.
+                        If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at <a href="mailto:support@shabang.io">support@shabang.io</a>.
                     </div>
                 </article>
             </div>
