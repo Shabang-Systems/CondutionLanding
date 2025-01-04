@@ -32,7 +32,7 @@ function Downloads(props) {
                 <ul class="icons">
                     <li><a href="https://twitter.com/Condution" class="fab fa-twitter"></a></li>
                     <li><a href="https://patreon.com/condution" class="fab fa-patreon"></a></li>
-                    <li><a href="mailto:support@shabang.cf" class="fas fa-envelope"></a></li>
+                    <li><a href="mailto:support@shabang.io" class="fas fa-envelope"></a></li>
                     <li><a href="https://github.com/Shabang-Systems/Condution" class="fab brands fa-github"></a></li>
                     <li><a href="https://www.youtube.com/channel/UCHoAJexhqGJwIEOD3RELBlw" class="fab fa-youtube"></a></li>
                     <li><a href="https://discord.gg/UaaqueY" class="fab fa-discord"></a></li>
